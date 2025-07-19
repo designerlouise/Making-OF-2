@@ -2,45 +2,53 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>Conheça o Estúdio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estúdio Louise</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Bem-vinda ao <span class="highlight">Estúdio</span>!</h1>
-  </header>
+  <!-- 🔻 LOGOMARCA FIXA (substitua 'logo.png' pela sua logo) -->
+  <div class="logo-fixa">
+    <img src="logo.png" alt="Logo Estúdio Louise" />
+  </div>
 
-  <section>
-    <div class="row">
-      <div class="col">
-        <h2>Sobre nós</h2>
-        <p>No nosso estúdio você encontrará um ambiente acolhedor com decoração charmosa, <span class="highlight">rosas</span>, lareira e muito cuidado.</p>
-        <a href="#contato" class="btn">Agende sua visita</a>
-      </div>
-      <div class="col">
-        <img src="imagem-interna1.jpg" alt="Interior do estúdio">
+  <!-- 🔻 VÍDEO DE ABERTURA (substitua 'video.mp4' pelo seu vídeo) -->
+  <div class="video-header">
+    <video autoplay muted loop playsinline>
+      <source src="video.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo.
+    </video>
+    <div class="overlay">
+      <h1>Bem-vinda ao <span class="highlight">Estúdio</span></h1>
+    </div>
+  </div>
+
+  <section class="sobre">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>Somos um espaço pensado para acolher, cuidar e oferecer experiências únicas com estilo, elegância e muita sensibilidade.</p>
+    </div>
+  </section>
+
+  <section class="diferenciais">
+    <div class="container">
+      <h2>Nossos Diferenciais</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="imagem1.jpg" alt="Detalhe" />
+          <p>Ambiente delicado e sofisticado com tons <span class="highlight">rosas</span> e madeira clara.</p>
+        </div>
+        <div class="card">
+          <img src="imagem2.jpg" alt="Lareira" />
+          <p>Conforto com lareira, capuccino e vinhos selecionados para momentos especiais.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>Nossos diferenciais</h2>
-    <div class="row">
-      <div class="col">
-        <img src="imagem-interna2.jpg" alt="Detalhe 1">
-        <p>Ambiente com detalhes em <span class="highlight">rosa</span> que transmitem feminilidade e aconchego.</p>
-      </div>
-      <div class="col">
-        <img src="imagem-interna3.jpg" alt="Detalhe 2">
-        <p>Espaços pensados para relaxar junto à lareira, com uma taça de vinho e capuccino.</p>
-      </div>
-    </div>
-  </section>
-
-  <footer id="contato">
-    <p>© 2025 Estúdio — Rua Exemplo, 123 • Fone: (xx) xxxx-xxxx</p>
+  <footer>
+    <p>© 2025 Estúdio Louise • Barbacena/MG • (xx) xxxx-xxxx</p>
   </footer>
 
   <script src="script.js"></script>
