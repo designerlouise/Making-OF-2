@@ -104,6 +104,11 @@ p {
   box-shadow: 0 6px 16px rgba(255, 105, 180, 0.4);
 }
 
+#agendar h2 {
+  text-transform: uppercase;
+  color: #ff69b4;
+}
+
 /* Rodapé */
 footer {
   background: #111;
