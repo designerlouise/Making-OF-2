@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #fffafc;
-  color: #333;
+  background-color: #000; /* FUNDO PRETO */
+  color: #f9f9f9; /* TEXTO CLARO */
 }
 
 /* 🔻 LOGO FIXA */
@@ -38,11 +38,8 @@ body {
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 192, 203, 0.2); /* leve filtro rosa */
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* camada escura para contraste */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,13 +49,13 @@ body {
 .overlay h1 {
   color: #fff;
   font-size: 3rem;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   padding: 1rem 2rem;
   border-radius: 10px;
 }
 
 .highlight {
-  color: #ff69b4;
+  color: #ff69b4; /* rosa médio */
 }
 
 /* Seções */
@@ -75,6 +72,11 @@ section {
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: #fff;
+}
+
+p {
+  color: #f1f1f1;
 }
 
 .grid {
@@ -86,9 +88,9 @@ h2 {
 }
 
 .card {
-  background: #fff;
+  background: #111;
   border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
   padding: 1.5rem;
   max-width: 300px;
 }
@@ -101,8 +103,9 @@ h2 {
 
 /* Rodapé */
 footer {
-  background: #f8e1ea;
+  background: #111;
   text-align: center;
   padding: 2rem;
   font-size: 0.9rem;
+  color: #aaa;
 }
