@@ -1,113 +1,111 @@
 /* Reset e estilo base */
-
-{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-font-family: 'Helvetica Neue', sans-serif;
-background-color: #000; /* FUNDO PRETO /
-color: #f9f9f9; / TEXTO CLARO */
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #000; /* FUNDO PRETO */
+  color: #f9f9f9; /* TEXTO CLARO */
 }
 
 /* 🔻 LOGO FIXA */
 .logo-fixa {
-position: fixed;
-top: 20px;
-left: 20px;
-z-index: 10;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
 }
 
 .logo-fixa img {
-height: 60px;
+  height: 60px;
 }
 
 /* 🔻 VÍDEO DE ABERTURA */
 .video-header {
-position: relative;
-height: 100vh;
-overflow: hidden;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .video-header video {
-width: 100%;
-height: 100%;
-object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .overlay {
-position: absolute;
-inset: 0;
-background: rgba(0, 0, 0, 0.4); /* camada escura para contraste */
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* camada escura para contraste */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .overlay h1 {
-color: #fff;
-font-size: 3rem;
-background: rgba(0, 0, 0, 0.6);
-padding: 1rem 2rem;
-border-radius: 10px;
+  color: #fff;
+  font-size: 3rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 10px;
 }
 
 .highlight {
-color: #ff69b4; /* rosa médio */
+  color: #ff69b4; /* rosa médio */
 }
 
 /* Seções */
 section {
-padding: 4rem 2rem;
+  padding: 4rem 2rem;
 }
 
 .container {
-max-width: 1000px;
-margin: auto;
-text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
 }
 
 h2 {
-font-size: 2rem;
-margin-bottom: 1rem;
-color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
 }
 
 p {
-color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .grid {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 2rem;
-margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .card {
-background: #111;
-border-radius: 1rem;
-box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
-padding: 1.5rem;
-max-width: 300px;
+  background: #111;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  max-width: 300px;
 }
 
 .card img {
-width: 100%;
-border-radius: 0.5rem;
-margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Rodapé */
 footer {
-background: #111;
-text-align: center;
-padding: 2rem;
-font-size: 0.9rem;
-color: #aaa;
+  background: #111;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
 }
