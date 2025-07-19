@@ -39,7 +39,7 @@ body {
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* camada escura para contraste */
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +55,7 @@ body {
 }
 
 .highlight {
-  color: #ff69b4; /* rosa médio */
+  color: #ff69b4; /* Rosa médio */
 }
 
 /* Seções */
@@ -79,6 +79,20 @@ p {
   color: #f1f1f1;
 }
 
+/* 🔻 Texto Sobre Nós */
+.texto-apresentacao {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.texto-apresentacao p {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  color: #f1f1f1;
+}
+
+/* Layout de Cards */
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -99,6 +113,22 @@ p {
   width: 100%;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
+}
+
+/* Botão */
+.btn-primary {
+  display: inline-block;
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e0559e;
 }
 
 /* Rodapé */
