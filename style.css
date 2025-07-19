@@ -7,11 +7,12 @@
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #000; /* FUNDO PRETO */
-  color: #f9f9f9; /* TEXTO CLARO */
+  background-color: #000; /* Fundo preto */
+  color: #f9f9f9;
+  line-height: 1.8; /* Espaço entre linhas */
 }
 
-/* 🔻 LOGO FIXA */
+/* Logo fixa */
 .logo-fixa {
   position: fixed;
   top: 20px;
@@ -23,7 +24,7 @@ body {
   height: 60px;
 }
 
-/* 🔻 VÍDEO DE ABERTURA */
+/* Vídeo de abertura */
 .video-header {
   position: relative;
   height: 100vh;
@@ -55,7 +56,7 @@ body {
 }
 
 .highlight {
-  color: #ff69b4; /* Rosa médio */
+  color: #ff69b4; /* Rosa destaque */
 }
 
 /* Seções */
@@ -71,64 +72,36 @@ section {
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: #fff;
 }
 
 p {
   color: #f1f1f1;
-}
-
-/* 🔻 Texto Sobre Nós */
-.texto-apresentacao {
-  max-width: 900px;
-  margin: 0 auto;
+  margin-bottom: 1.5rem;
   text-align: justify;
 }
 
-.texto-apresentacao p {
-  margin-bottom: 2rem;
-  line-height: 1.8;
-  color: #f1f1f1;
-}
-
-/* Layout de Cards */
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.card {
-  background: #111;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
-  padding: 1.5rem;
-  max-width: 300px;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-/* Botão */
+/* Botão Rosa */
 .btn-primary {
   display: inline-block;
   background-color: #ff69b4;
   color: #fff;
-  padding: 0.8rem 1.6rem;
-  border-radius: 8px;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
   text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
   margin-top: 1.5rem;
-  transition: background 0.3s ease;
 }
 
 .btn-primary:hover {
   background-color: #e0559e;
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(255, 105, 180, 0.4);
 }
 
 /* Rodapé */
