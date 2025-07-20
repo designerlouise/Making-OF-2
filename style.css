@@ -116,4 +116,9 @@ footer {
   padding: 2rem;
   font-size: 0.9rem;
   color: #aaa;
+  width: 100%;
+}
+
+footer p {
+  margin: 0.5rem 0;
 }
